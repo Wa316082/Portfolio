@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .borderTop {
+        @apply border-t-[1px] border-orange-400;
+    }
+
+    .borderRight {
+        @apply border-r-[1px] border-orange-400;
+    }
+
+    .borderLeft {
+        @apply border-l-[1px] border-orange-400;
+    }
+
+    .borderBottom {
+        @apply border-b-[1px] border-orange-400;
+    }
+
+    .aboutLi {
+        @apply text-zinc-300 text-base font-normal flex justify-between items-center border-b-[1px] border-orange-500 py-2 
+    }
+    .aboutLiSpan {
+        @apply bg-orange-500 text-black uppercase px-4 py-[1px] rounded-md 
+    }
+
+
+
+}
