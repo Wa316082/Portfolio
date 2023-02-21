@@ -11,7 +11,7 @@ module.exports = {
         specialfont: ["Great Vibes", "sans-serif"],
       },
       colors: {
-        bodyColor: "#1F8A70",// 645CBB ,1F8A70 , 13005A
+        bodyColor: "#0b1120",// 645CBB ,  1F8A70 ,1F8A70 , 13005A
         textColor: "rgba(255, 255, 255, 0.85) ",
         designColor: "#FF5F00",//7B2869
         titleRoundBg: "linear-gradient(135deg, rgba(120, 204, 109, .15) 0%, rgba(120, 204, 109, 1%)",
