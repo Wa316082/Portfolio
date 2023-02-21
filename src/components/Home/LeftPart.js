@@ -19,13 +19,13 @@ export default function LeftPart() {
   return (
     <div className='w-5/12 h-full bg-bodyColor rounded-2xl shadow-testShadow z-10'>
           <div className=' w-full h-3/5'>
-            <img className='w-full h-full   rounded-2xl' src={profileImg3} alt="ProfleImg" loading='priority' />
+            <img className='w-full p-2 h-full   rounded-2xl' src={profileImg3} alt="ProfleImg" loading='priority' />
             
           </div>
 
           <div className='w-full h-2/5 '>
                 {/* Intro  */}
-                <div className='flex flex-col items-center gap-2 py-10'>
+                <div className='flex flex-col items-center gap-2 py-11'>
                     <h1 className='text-textColor text-2xl font-semibold font-titlefont'>Md. Wasim Akram</h1>
                     <p className=' text-lg text-orange-400 font-titlefont'> {text}<Cursor cursorBlinking ="false" cursorStyle="|" /> </p>
                     <div className='flex justify-center gap-2 mt-2'>
@@ -37,7 +37,7 @@ export default function LeftPart() {
                 </div>
 
                 {/* Buttons  */}
-                <div className=' flex h-12'>
+                <div className=' flex h-14'>
                      <a className='w-1/2  borderRight border-t-[1px] border-orange-400 text-sm tracking-wide uppercase hover:text-orange-600' href={CV} target='_blank' rel='noreferrer'>
                      <button className= ' w-full h-full flex justify-center items-center gap-2 '>
                         Dounload CV <BsFillCloudArrowDownFill />

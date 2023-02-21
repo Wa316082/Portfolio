@@ -9,7 +9,7 @@ import { IoIosPaper } from "react-icons/io";
 export default function Skills() {
   return (
     <div className="w-full grid grid-cols-9 px-6">
-      <div className="col-span-4">
+      <div className="col-span-4 py-2">
         <ResumeTitle title="Design" icon={<SiArtstation />} />
 
         <div className="py-4">
@@ -20,8 +20,8 @@ export default function Skills() {
             >
               Web Development
             </p>
-            <span className="w-full bg-lime-700 h-1 inline-flex relative">
-              <span className="w-[95%] h-full absolute top-0 left-0 bg-orange-500"></span>
+            <span className="w-full bg-lime-700 h-2 inline-flex relative rounded-r-xl">
+              <span className="w-[95%] h-full absolute top-0 left-0 bg-gradient-to-l to-orange-500 from-pink-700 rounded-r-xl"></span>
             </span>
           </div>
           <div className="py-3 border-b-[1px] border-orange-500">
@@ -31,8 +31,8 @@ export default function Skills() {
             >
               Api Design
             </p>
-            <span className="w-full bg-lime-700 h-1 inline-flex relative">
-              <span className="w-[90%] h-full absolute top-0 left-0 bg-orange-500"></span>
+            <span className="w-full bg-lime-700 h-2 inline-flex relative rounded-r-xl">
+              <span className="w-[90%] h-full absolute top-0 left-0 bg-gradient-to-l to-orange-500 from-pink-700 rounded-r-xl"></span>
             </span>
           </div>
           <div className="py-3 border-b-[1px] border-orange-500">
@@ -42,8 +42,8 @@ export default function Skills() {
             >
               Web Design
             </p>
-            <span className="w-full bg-lime-700 h-1 inline-flex relative">
-              <span className="w-[90%] h-full absolute top-0 left-0 bg-orange-500"></span>
+            <span className="w-full bg-lime-700 h-2 inline-flex relative rounded-r-xl">
+              <span className="w-[90%] h-full absolute top-0 left-0 bg-gradient-to-l to-orange-500 from-pink-700 rounded-r-xl"></span>
             </span>
           </div>
           <div className="py-3 border-b-[1px] border-orange-500">
@@ -53,8 +53,8 @@ export default function Skills() {
             >
               Ui Design
             </p>
-            <span className="w-full bg-lime-700 h-1 inline-flex relative">
-              <span className="w-[80%] h-full absolute top-0 left-0 bg-orange-500"></span>
+            <span className="w-full bg-lime-700 h-2 inline-flex relative rounded-r-xl">
+              <span className="w-[80%] h-full absolute top-0 left-0 bg-gradient-to-l to-orange-500 from-pink-700 rounded-r-xl"></span>
             </span>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function Skills() {
       <div className="w-full h-full flex justify-center items-center">
         <span className="w-[1px] h-full bg-orange-400 inline-flex"></span>
       </div>
-      <div className="col-span-4">
+      <div className="col-span-4 py-2">
         <ResumeTitle title="Lnguages" icon={<FaFlag />} />
 
         <div className="py-4">
@@ -73,8 +73,8 @@ export default function Skills() {
             >
               English
             </p>
-            <span className="w-full bg-lime-700 h-1 inline-flex relative">
-              <span className="w-[85%] h-full absolute top-0 left-0 bg-orange-500"></span>
+            <span className="w-full bg-lime-700 h-2 inline-flex relative rounded-r-xl">
+              <span className="w-[85%] h-full absolute top-0 left-0 bg-gradient-to-l to-orange-500 from-pink-700 rounded-r-xl"></span>
             </span>
           </div>
           <div className="py-3 border-b-[1px] border-orange-500">
@@ -84,8 +84,8 @@ export default function Skills() {
             >
               Benguli
             </p>
-            <span className="w-full bg-lime-700 h-1 inline-flex relative">
-              <span className="w-[95%] h-full absolute top-0 left-0 bg-orange-500"></span>
+            <span className="w-full bg-lime-700 h-2 inline-flex relative rounded-r-xl">
+              <span className="w-[95%] h-full absolute top-0 left-0 bg-gradient-to-l to-orange-500 from-pink-700 rounded-r-xl"></span>
             </span>
           </div>
           <div className="py-3 border-b-[1px] border-orange-500">
@@ -95,8 +95,8 @@ export default function Skills() {
             >
               Hindi
             </p>
-            <span className="w-full bg-lime-700 h-1 inline-flex relative">
-              <span className="w-[70%] h-full absolute top-0 left-0 bg-orange-500"></span>
+            <span className="w-full bg-lime-700 h-2 inline-flex relative rounded-r-xl">
+              <span className="w-[70%] h-full absolute top-0 left-0 bg-gradient-to-l to-orange-500 from-pink-700 rounded-r-xl"></span>
             </span>
           </div>
         </div>
